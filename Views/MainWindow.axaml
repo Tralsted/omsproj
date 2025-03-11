@@ -1,0 +1,60 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:omsproj.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="omsproj.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="omsproj">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <TabControl>
+        <TabItem Header="Ordre oversigt">
+            <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*,*">
+            </Grid>
+        </TabItem>
+
+        <TabItem Header="Ordre status">
+            <StackPanel Margin="10" Spacing="10">
+                <TextBox Name="Exercise2TextBox"/>
+                <ComboBox Name="Exercise2ComboBox">
+                    <ComboBoxItem>Item 1</ComboBoxItem>
+                    <ComboBoxItem>Item 2</ComboBoxItem>
+                    <ComboBoxItem>Item 3</ComboBoxItem>
+                </ComboBox>
+                <CheckBox Name="CheckBox" />
+                <TextBlock Name="OutputTextBlock" TextWrapping="Wrap"/>
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="Salgs statistik">
+            <StackPanel Margin="20" Spacing="10">
+                <TextBlock Text="Choose an animal:" />
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="Inventar">
+            <StackPanel Margin="20" Spacing="10">
+              <TextBlock Text="Enter two numbers:" />
+              <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="200,200">
+                  <TextBlock Grid.Row="0" Grid.Column="0" Text="Number 1:" />
+                  <TextBlock Grid.Row="1" Grid.Column="0" Text="Number 2:" />
+                  <TextBox Grid.Row="0" Grid.Column="1" Watermark="Enter number" Name="num1"/>
+                  <TextBox Grid.Row="1" Grid.Column="1" Watermark="Enter number" Name="num2"/>
+              </Grid>
+              <TextBlock Text="Result:" />  
+              <TextBox Name="result"/>
+              <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto,Auto">
+              </Grid>
+              
+            </StackPanel>
+        </TabItem>
+    </TabControl>
+</Window>
