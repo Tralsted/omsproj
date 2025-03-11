@@ -15,13 +15,23 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
+
     <TabControl>
-        <TabItem Header="Ordre oversigt">
-            <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*,*">
+        <TabItem Header="Order overview">
+             
+            
+          
+            <Grid RowDefinitions="30,*,*" ColumnDefinitions="*,500,*" >
+                <TextBox Grid.Row="0" Grid.Column="1" Watermark="Search for order" Name="OrderSearch"/>
+                <ComboBox Grid.Row="0" Grid.Column="3"  Name="Sorting" >
+                    <ComboBoxItem>Date(newest to oldest)</ComboBoxItem>
+                    <ComboBoxItem>Price(lowest to highest)</ComboBoxItem>
+                    <ComboBoxItem>Price(highest to lowest)</ComboBoxItem>
+                </ComboBox>
             </Grid>
         </TabItem>
 
-        <TabItem Header="Ordre status">
+        <TabItem Header="Order status">
             <StackPanel Margin="10" Spacing="10">
                 <TextBox Name="Exercise2TextBox"/>
                 <ComboBox Name="Exercise2ComboBox">
@@ -34,13 +44,13 @@
             </StackPanel>
         </TabItem>
 
-        <TabItem Header="Salgs statistik">
+        <TabItem Header="Sale statistics">
             <StackPanel Margin="20" Spacing="10">
                 <TextBlock Text="Choose an animal:" />
             </StackPanel>
         </TabItem>
 
-        <TabItem Header="Inventar">
+        <TabItem Header="Inventory">
             <StackPanel Margin="20" Spacing="10">
               <TextBlock Text="Enter two numbers:" />
               <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="200,200">
