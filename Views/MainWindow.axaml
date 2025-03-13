@@ -18,23 +18,35 @@
 
     <TabControl>
         <TabItem Header="Order overview">
-             
-            
-          
-            <Grid RowDefinitions="30,*,*" ColumnDefinitions="*,500,*" >
-                <TextBox Grid.Row="0" Grid.Column="1" Watermark="Search for order" Name="OrderSearch"/>
-                <ComboBox Grid.Row="0" Grid.Column="3"  Name="Sorting" >
-                    <ComboBoxItem>Date(newest to oldest)</ComboBoxItem>
-                    <ComboBoxItem>Price(lowest to highest)</ComboBoxItem>
-                    <ComboBoxItem>Price(highest to lowest)</ComboBoxItem>
-                </ComboBox>
-            </Grid>
+            <SplitView IsPaneOpen="True"
+                       DisplayMode="Inline"
+                       OpenPaneLength="200">
+                <SplitView.Pane>
+                    <TextBlock Text="Sorting"
+                               FontSize="24"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Left"/>
+                    
+                </SplitView.Pane>
+
+            <ListBox  >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate DataType="x:String">
+                                <Border BorderBrush="Orange" BorderThickness="1" CornerRadius="4" Padding="4">
+                                    <TextBlock>
+                                        <Run FontWeight="Bold">Templated Number</Run>:<Run Text="Hello There!"/>
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+            </SplitView> 
         </TabItem>
 
         <TabItem Header="Order status">
             <StackPanel Margin="10" Spacing="10">
                 <TextBox Name="Exercise2TextBox"/>
-                <ComboBox Name="Exercise2ComboBox">
+                <ComboBox Name="Exercise2ComboBox" PlaceholderText="Hello">
                     <ComboBoxItem>Item 1</ComboBoxItem>
                     <ComboBoxItem>Item 2</ComboBoxItem>
                     <ComboBoxItem>Item 3</ComboBoxItem>
