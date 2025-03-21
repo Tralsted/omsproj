@@ -45,9 +45,7 @@
                         <ListBox.ItemTemplate>
                             <DataTemplate DataType="x:String">
                                 <Border BorderBrush="Orange" BorderThickness="1" CornerRadius="4" Padding="4">
-                                    <TextBlock>
-                                        <Run FontWeight="Bold">Templated Number</Run>:<Run Text="Hello There!"/>
-                                    </TextBlock>
+                                    <TextBlock Text="{Binding}"/>
                                 </Border>
                             </DataTemplate>
                         </ListBox.ItemTemplate>
