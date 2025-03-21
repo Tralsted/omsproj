@@ -66,3 +66,6 @@
 /home/terj/sdu/omsproj/obj/Debug/net9.0/omsproj.csproj.Up2Date
 /home/terj/sdu/omsproj/obj/Debug/net9.0/omsproj.genruntimeconfig.cache
 /home/terj/sdu/omsproj/obj/Debug/net9.0/ref/omsproj.dll
+/home/terj/sdu/omsproj/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/terj/sdu/omsproj/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/terj/sdu/omsproj/bin/Debug/net9.0/Npgsql.dll

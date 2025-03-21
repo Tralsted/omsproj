@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "10RfejV9C6Y=",
+  "dgSpecHash": "4Z23ATF+l3M=",
   "success": true,
   "projectFilePath": "/home/terj/sdu/omsproj/omsproj.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,9 @@
     "/home/terj/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/7.3.0.3-preview.2.2/harfbuzzsharp.nativeassets.webassembly.7.3.0.3-preview.2.2.nupkg.sha512",
     "/home/terj/.nuget/packages/harfbuzzsharp.nativeassets.win32/7.3.0.2/harfbuzzsharp.nativeassets.win32.7.3.0.2.nupkg.sha512",
     "/home/terj/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
+    "/home/terj/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/terj/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/terj/.nuget/packages/npgsql/9.0.3/npgsql.9.0.3.nupkg.sha512",
     "/home/terj/.nuget/packages/skiasharp/2.88.8/skiasharp.2.88.8.nupkg.sha512",
     "/home/terj/.nuget/packages/skiasharp.nativeassets.linux/2.88.8/skiasharp.nativeassets.linux.2.88.8.nupkg.sha512",
     "/home/terj/.nuget/packages/skiasharp.nativeassets.macos/2.88.8/skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",

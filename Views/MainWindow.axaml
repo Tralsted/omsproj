@@ -22,14 +22,17 @@
                        DisplayMode="Inline"
                        OpenPaneLength="200">
                 <SplitView.Pane>
-                    <TextBlock Text="Sorting"
+                    <Grid RowDefinitions="30,30,30,30,30,30,30,30" ColumnDefinitions="*">
+                    <TextBlock Grid.Row="0" Text="Sorting"
                                FontSize="24"
                                VerticalAlignment="Top"
                                HorizontalAlignment="Left"/>
+                    <Button Grid.Row="2" Content="low to high"/>
+                    </Grid>
                     
                 </SplitView.Pane>
 
-            <ListBox  >
+            <ListBox x:Name="Orderlist" >
                         <ListBox.ItemTemplate>
                             <DataTemplate DataType="x:String">
                                 <Border BorderBrush="Orange" BorderThickness="1" CornerRadius="4" Padding="4">

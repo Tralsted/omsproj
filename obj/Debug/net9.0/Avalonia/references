@@ -26,12 +26,15 @@
 /home/terj/.nuget/packages/harfbuzzsharp/7.3.0.2/lib/net6.0/HarfBuzzSharp.dll
 /home/terj/.nuget/packages/microcom.runtime/0.11.0/lib/net5.0/MicroCom.Runtime.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/Microsoft.CSharp.dll
+/home/terj/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/terj/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/Microsoft.VisualBasic.Core.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/Microsoft.VisualBasic.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/Microsoft.Win32.Primitives.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/Microsoft.Win32.Registry.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/mscorlib.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/netstandard.dll
+/home/terj/.nuget/packages/npgsql/9.0.3/lib/net8.0/Npgsql.dll
 /home/terj/.nuget/packages/skiasharp/2.88.8/lib/net6.0/SkiaSharp.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/System.AppContext.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/9.0.2/ref/net9.0/System.Buffers.dll
