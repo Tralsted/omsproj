@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/terj/sdu/omsproj/omsproj.csproj": {}
+    "C:\\Users\\Husai\\RiderProjects\\omsproj\\omsproj.csproj": {}
   },
   "projects": {
-    "/home/terj/sdu/omsproj/omsproj.csproj": {
+    "C:\\Users\\Husai\\RiderProjects\\omsproj\\omsproj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/terj/sdu/omsproj/omsproj.csproj",
+        "projectUniqueName": "C:\\Users\\Husai\\RiderProjects\\omsproj\\omsproj.csproj",
         "projectName": "omsproj",
-        "projectPath": "/home/terj/sdu/omsproj/omsproj.csproj",
-        "packagesPath": "/home/terj/.nuget/packages/",
-        "outputPath": "/home/terj/sdu/omsproj/obj/",
+        "projectPath": "C:\\Users\\Husai\\RiderProjects\\omsproj\\omsproj.csproj",
+        "packagesPath": "C:\\Users\\Husai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Husai\\RiderProjects\\omsproj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/terj/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Husai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
