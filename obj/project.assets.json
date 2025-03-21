@@ -1648,26 +1648,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Husai\\.nuget\\packages\\": {}
+    "/home/terj/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Husai\\RiderProjects\\omsproj\\omsproj.csproj",
+      "projectUniqueName": "/home/terj/sdu/omsproj/omsproj.csproj",
       "projectName": "omsproj",
-      "projectPath": "C:\\Users\\Husai\\RiderProjects\\omsproj\\omsproj.csproj",
-      "packagesPath": "C:\\Users\\Husai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Husai\\RiderProjects\\omsproj\\obj\\",
+      "projectPath": "/home/terj/sdu/omsproj/omsproj.csproj",
+      "packagesPath": "/home/terj/.nuget/packages/",
+      "outputPath": "/home/terj/sdu/omsproj/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Husai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/terj/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/lib64/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1685,7 +1684,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -1736,7 +1736,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
