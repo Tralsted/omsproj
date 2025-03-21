@@ -140,6 +140,3 @@ C:/Users/Husai/RiderProjects/omsproj/obj/Debug/net9.0/refint/Avalonia/omsproj.dl
 C:/Users/Husai/RiderProjects/omsproj/obj/Debug/net9.0/omsproj.csproj.Up2Date
 C:/Users/Husai/RiderProjects/omsproj/obj/Debug/net9.0/omsproj.genruntimeconfig.cache
 C:/Users/Husai/RiderProjects/omsproj/obj/Debug/net9.0/ref/omsproj.dll
-/home/terj/sdu/omsproj/obj/Debug/net9.0/omsproj.dll
-/home/terj/sdu/omsproj/obj/Debug/net9.0/refint/omsproj.dll
-/home/terj/sdu/omsproj/obj/Debug/net9.0/omsproj.pdb

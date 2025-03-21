@@ -58,10 +58,10 @@
         <TabItem Header="Order status">
             <StackPanel Margin="10" Spacing="10">
                 <TextBox Name="Exercise2TextBox"/>
-                <ComboBox Name="Exercise2ComboBox" PlaceholderText="Hello">
-                    <ComboBoxItem>Item 1</ComboBoxItem>
-                    <ComboBoxItem>Item 2</ComboBoxItem>
-                    <ComboBoxItem>Item 3</ComboBoxItem>
+                <ComboBox Name="Exercise2ComboBox" PlaceholderText="Status">
+                    <ComboBoxItem>Packing</ComboBoxItem>
+                    <ComboBoxItem>en route</ComboBoxItem>
+                    <ComboBoxItem>delivered</ComboBoxItem>
                 </ComboBox>
                 <CheckBox Name="CheckBox" />
                 <TextBlock Name="OutputTextBlock" TextWrapping="Wrap"/>
