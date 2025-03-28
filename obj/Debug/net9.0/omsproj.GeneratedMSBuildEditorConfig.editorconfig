@@ -15,14 +15,14 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = omsproj
-build_property.ProjectDir = /home/terj/sdu/omsproj/
+build_property.ProjectDir = C:\Users\Husai\RiderProjects\omsproj\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/terj/sdu/omsproj/App.axaml]
+[C:/Users/Husai/RiderProjects/omsproj/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/terj/sdu/omsproj/Views/MainWindow.axaml]
+[C:/Users/Husai/RiderProjects/omsproj/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

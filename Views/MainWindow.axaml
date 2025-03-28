@@ -52,19 +52,31 @@
                     </ListBox>
             </SplitView> 
         </TabItem>
-
+        
         <TabItem Header="Order status">
             <StackPanel Margin="10" Spacing="10">
-                <TextBox Name="Exercise2TextBox"/>
-                <ComboBox Name="Exercise2ComboBox" PlaceholderText="Status">
+                <TextBox Name="OrderIdTextBox" Watermark="Enter Order ID"/>
+                <Grid RowDefinitions="Auto" ColumnDefinitions="140, 135, 140, 145, 140">
+                <ComboBox Grid.Column="0" Name="Exercise2ComboBox" PlaceholderText="Status">
                     <ComboBoxItem>Packing</ComboBoxItem>
                     <ComboBoxItem>en route</ComboBoxItem>
                     <ComboBoxItem>delivered</ComboBoxItem>
                 </ComboBox>
-                <CheckBox Name="CheckBox" />
+                    <Button Grid.Column="1" Content="Mark all packing">
+                    </Button>
+                    <Button Grid.Column="2" Content="Mark all en route">
+                    </Button>
+                    <Button Grid.Column="3" Content="Mark all delivered">
+                    </Button>
+                    <Button Grid.Column="4" Content="Update status">
+                    </Button>
+                </Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                </StackPanel>
                 <TextBlock Name="OutputTextBlock" TextWrapping="Wrap"/>
             </StackPanel>
         </TabItem>
+
 
         <TabItem Header="Sale statistics">
             <StackPanel Margin="20" Spacing="10">
