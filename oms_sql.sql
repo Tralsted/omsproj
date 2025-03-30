@@ -73,7 +73,7 @@ SELECT * FROM order_tracking;
 CREATE TABLE order_tracking(
 status VARCHAR(50),
 eta VARCHAR(50),
-corier VARCHAR(50),
+courier VARCHAR(50),
 order_id INT,
 product_id INT,
 PRIMARY KEY(order_id, product_id),
