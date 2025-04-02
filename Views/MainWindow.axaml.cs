@@ -13,6 +13,9 @@ public partial class MainWindow : Window
         Orderlist.ItemsSource = new string[]
                 { "cat", "camel", "cow", "chameleon", "mouse", "lion", "zebra" }
             .OrderBy(x => x);
+        OrderStatus.ItemsSource = new string[]
+                { "cat", "camel", "cow", "chameleon", "mouse", "lion", "zebra" }
+            .OrderBy(x => x);
     }
 }
 

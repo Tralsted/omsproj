@@ -71,6 +71,21 @@
                     <Button Grid.Column="4" Content="Update status">
                     </Button>
                 </Grid>
+                <ListBox x:Name="OrderStatus" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate DataType="x:String">
+                            <Border BorderBrush="Orange" BorderThickness="1" CornerRadius="4" Padding="4">
+                                <StackPanel Orientation="Horizontal">
+                                    <CheckBox>
+                                    
+                                    </CheckBox>
+                                    <TextBlock Text="{Binding}"/>
+                                </StackPanel>
+                               
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 </StackPanel>
                 <TextBlock Name="OutputTextBlock" TextWrapping="Wrap"/>
